@@ -1,0 +1,4 @@
+DOCUMENT #9
+==================================================
+
+recent decision of the High Court in Australian Broadcasting Corporation v O'Neill [2006] HCA 46 clarifies this issue. Gleeson CJ and Crennan J (at [19]), after referring to various cases dealing with the grant of interlocutory injunctions in cases of defamation, formulated the general principles governing the grant of such relief in the following terms: "in all applications for an interlocutory injunction, a court will ask whether the plaintiff has shown that there is a serious question to be tried as to the plaintiff's entitlement to relief, has shown that the plaintiff is likely to suffer injury for which damages will not be an adequate remedy, and has shown that the balance of convenience favours the granting of an injunction."
