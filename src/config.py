@@ -38,19 +38,12 @@ MAX_TOKENS = 1500  # For reference only (not used in document-only mode)
 USE_OPENAI = False  # Disabled - using document-only mode
 OPENAI_API_KEY = ""  # Not used in document-only mode
 
-# LLM settings (disabled - using document-only mode)
-OPENAI_MODEL = "gpt-3.5-turbo"  # Not used in document-only mode
+# LLM settings
+OPENAI_MODEL = "gpt-3.5-turbo"
 
-# Hugging Face settings (disabled - removed from application)
-# These are kept as empty strings to prevent import errors, but are not used
-HUGGINGFACE_API_KEY = ""  # Disabled - not using Hugging Face
-HUGGINGFACE_MODEL = ""  # Disabled - not using Hugging Face
-USE_HUGGINGFACE = False
-
-# Default LLM provider - set to "none" for document-only mode
-# The bot will only use document retrieval without any LLM
+# Default LLM provider
 DEFAULT_LLM_PROVIDER = "none"
-USE_LLM_BY_DEFAULT = False  # Always use document-only mode
+USE_LLM_BY_DEFAULT = False
 
 # UI settings
 PAGE_TITLE = "Policy Document Q&A Bot"

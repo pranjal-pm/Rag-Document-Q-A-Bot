@@ -122,7 +122,7 @@ Edit `src/config.py` to customize:
 
 - **Vector Database**: FAISS (Facebook AI Similarity Search)
 - **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
-- **LLM**: OpenAI GPT-3.5/4 (optional)
+- **LLM**: OpenAI GPT-3.5/4 (optional, requires API key)
 - **Document Processing**: PyPDF2, python-docx
 - **UI**: Streamlit
 - **Authentication**: SQLite-based user management
