@@ -4,9 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
 build/
 develop-eggs/
 dist/
@@ -23,20 +20,10 @@ wheels/
 .installed.cfg
 *.egg
 
-# Vector database
-vector_db/
-*.faiss
-*.index
-
-# Models
-models/
-*.pkl
-*.h5
-*.pt
-*.pth
-
-# Environment
-.env
+# Virtual Environment
+venv/
+env/
+ENV/
 .venv
 
 # IDE
@@ -46,16 +33,10 @@ models/
 *.swo
 *~
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Data (optional - uncomment if you don't want to track data)
-# data/
-
-# Chat history
-chat_history/
-*.json
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # Database files
 *.db
@@ -63,12 +44,37 @@ chat_history/
 *.sqlite3
 users.db
 
-# Streamlit
-.streamlit/
+# Vector database and data
+vector_db/
+*.faiss
+data/
+*.pdf
+*.docx
+*.txt
+*.md
+
+# Chat history
+chat_history/
+*.json
+
+# Models
+models/
+*.pkl
+*.h5
+*.pt
+*.pth
 
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
 
 # Logs
 *.log
@@ -78,3 +84,10 @@ users.db
 *.temp
 *.bak
 
+# Test files
+test_*.py
+*_test.py
+
+# Cache
+.cache/
+*.cache

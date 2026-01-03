@@ -34,12 +34,12 @@ TOP_K_RESULTS = 5  # Number of documents to retrieve
 
 # RAG settings
 TEMPERATURE = 0.7
-MAX_TOKENS = 1500  # For reference only (not used in document-only mode)
-USE_OPENAI = False  # Disabled - using document-only mode
-OPENAI_API_KEY = ""  # Not used in document-only mode
+MAX_TOKENS = 1500
+USE_OPENAI = os.getenv("USE_OPENAI", "False").lower() == "true"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # LLM settings
-OPENAI_MODEL = "gpt-3.5-turbo"
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-3.5-turbo")
 
 # Default LLM provider
 DEFAULT_LLM_PROVIDER = "none"
