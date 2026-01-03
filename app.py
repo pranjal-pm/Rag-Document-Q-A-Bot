@@ -201,9 +201,7 @@ if 'rag_pipeline' not in st.session_state:
     try:
         st.session_state.rag_pipeline = RAGPipeline(
             use_openai_llm=False,
-            use_huggingface_llm=False,
             openai_api_key=None,
-            huggingface_api_key=None,
             llm_provider="none"
         )
         st.session_state.initialized = True
