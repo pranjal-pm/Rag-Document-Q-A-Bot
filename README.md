@@ -49,20 +49,7 @@ cd Rag-Document-Q-A-Bot
 pip install -r requirements.txt
 ```
 
-3. **Configure API Key (Optional - for LLM features):**
-   
-   Create a `.env` file in the project root directory and add your OpenAI API key:
-   ```
-   OPENAI_API_KEY=your_actual_api_key_here
-   ```
-   
-   To get your OpenAI API key:
-   - Visit https://platform.openai.com/api-keys
-   - Sign up or log in
-   - Create a new API key
-   - Copy and paste it into the `.env` file
-   
-   **Note:** The LLM is optional. The bot works in document-only mode without an API key.
+
 
 ## Quick Start
 
