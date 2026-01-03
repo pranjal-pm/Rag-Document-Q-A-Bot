@@ -53,6 +53,28 @@ Thumbs.db
 # Data (optional - uncomment if you don't want to track data)
 # data/
 
+# Chat history
+chat_history/
+*.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+users.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
 # Logs
 *.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
 

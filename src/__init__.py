@@ -1,6 +1,3 @@
 """
-Policy Document Q&A Bot with RAG
+RAG Policy Document Q&A Bot
 """
-
-__version__ = "1.0.0"
-
